@@ -1,8 +1,15 @@
-/**
- * Practice: Making classes and objects
- *
- * - Find a type of object you have more than one of in your house (eg. clothing, writing tools, etc).
- * - Create a class describing this object type - its properties and methods.
- * - Create several objects using the class.
- * - Test the objecs by calling their properties and using their methods in the console.
- */
+import Shirt from "./shirt.js";
+
+const madewellCorduroy = new Shirt ( 
+"Black Madewell Corduroy",
+"Large",
+"Black",
+"Corduroy",
+1,
+50,
+"Good",
+true,
+); 
+
+console.log ("The Black Madewell Shirt", madewellCorduroy);
+console.log (`The shirt ${madewellCorduroy.name} has ${madewellCorduroy.pocketNum} pockets.`); 
